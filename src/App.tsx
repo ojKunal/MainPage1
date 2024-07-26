@@ -5,7 +5,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import Httpswwwcuddlynestcom from "./pages/Httpswwwcuddlynestcom";
+import Httpswwwcuddlynestcom from "./pages/MainPage";
 
 function App() {
   const action = useNavigationType();

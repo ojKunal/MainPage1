@@ -1,6 +1,7 @@
 import { FunctionComponent } from "react";
 import FrameComponent4 from "./FrameComponent4";
 import DivcnHpNexttripSlider from "./DivcnHpNexttripSlider";
+import ScrollableImages from "./ScrollableImage";
 
 export type FrameComponent3Type = {
   className?: string;
@@ -11,9 +12,11 @@ const FrameComponent3: FunctionComponent<FrameComponent3Type> = ({
 }) => {
   return (
     <section
-      className={`self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-[94.9px] box-border max-w-full shrink-0 text-left text-4xl text-gray-300 font-poppins mq900:pb-[26px] mq900:box-border mq1275:pb-10 mq1275:box-border ${className}`}
+      className={`self-stretch flex flex-row items-start justify-center pt-0 px-10 pb-[94.9px] box-border max-w-full shrink-0 text-left text-4xl text-gray-300 font-poppins mq900:pb-[26px] mq900:box-border mq1275:pb-10 mq1275:box-border overflow-x-hidden overflow-hidden ${className}`}
     >
-      <div className="h-[2415.5px] w-[1476.1px] flex flex-col items-start justify-start pt-0 px-0 pb-[500px] box-border gap-[76.7px] max-w-full mq450:gap-[19px] mq900:h-auto mq900:gap-[38px] mq900:pb-[137px] mq900:box-border mq1275:pb-[211px] mq1275:box-border">
+      <div className="w-[1476.1px] flex flex-col items-start justify-start pt-0 px-0  box-border  max-w-full mq450:gap-[19px] mq900:h-auto mq900:gap-[38px] mq900:pb-[137px] mq900:box-border mq1275:pb-[211px] mq1275:box-border">
+        {/* Recent Searches start */}
+
         <div className="self-stretch flex flex-col items-start justify-start gap-[17.2px] max-w-full shrink-0">
           <h3 className="m-0 relative text-inherit tracking-[-0.46px] leading-[23px] font-bold font-inherit mq450:text-lg mq450:leading-[18px]">
             Recent searches
@@ -25,8 +28,11 @@ const FrameComponent3: FunctionComponent<FrameComponent3Type> = ({
             <div className="self-stretch h-[116px] overflow-hidden shrink-0 flex flex-col items-start justify-start pt-0 px-0 pb-[18.9px] box-border gap-[21.9px] max-w-full text-base text-gray-300 mq900:h-auto">
               <div className="w-[546px] flex flex-col items-start justify-start gap-[1px] shrink-0 max-w-full">
                 <div className="w-px h-6 relative inline-block">{` `}</div>
+
+                {/* ................................................ */}
+
                 <div className="self-stretch flex flex-row flex-wrap items-start justify-start gap-[15px] text-sm text-black font-inter">
-                  <div className="flex-1 rounded-21xl box-border overflow-x-auto flex flex-row items-end justify-start pt-4 px-4 pb-[18px] gap-[8px] min-w-[202px] border-[0.6px] border-solid border-gainsboro">
+                  <div className="flex-1 rounded-21xl  shadow-lg box-border overflow-x-auto flex flex-row items-end justify-start pt-4 px-4 pb-[18px] gap-[8px] min-w-[202px] border-[0.6px] border-solid border-gainsboro">
                     <div className="flex flex-col items-start justify-end pt-0 px-0 pb-[4.8px]">
                       <img
                         className="w-6 h-6 relative overflow-hidden shrink-0"
@@ -81,7 +87,10 @@ const FrameComponent3: FunctionComponent<FrameComponent3Type> = ({
                       />
                     </div>
                   </div>
-                  <div className="w-[243px] rounded-21xl box-border overflow-x-auto shrink-0 flex flex-row items-end justify-start pt-4 px-4 pb-[18px] gap-[8px] border-[0.6px] border-solid border-gainsboro">
+
+                  {/* ................................. */}
+
+                  <div className="w-[243px] shadow-lg rounded-21xl box-border overflow-x-auto shrink-0 flex flex-row items-end justify-start pt-4 px-4 pb-[18px] gap-[8px] border-[0.6px] border-solid border-gainsboro">
                     <div className="flex flex-col items-start justify-end pt-0 px-0 pb-[4.8px]">
                       <img
                         className="w-6 h-6 relative overflow-hidden shrink-0"
@@ -135,17 +144,12 @@ const FrameComponent3: FunctionComponent<FrameComponent3Type> = ({
             </div>
           </div>
         </div>
-        <div className="self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-[19.9px] box-border gap-[1px] max-w-full shrink-0 text-base">
-          <div className="flex flex-row items-start justify-start pt-0 px-0 pb-[14.5px] text-13xl font-inter">
-            <h1 className="m-0 relative text-inherit leading-[39px] font-semibold font-inherit mq450:text-lgi mq450:leading-[23px] mq900:text-7xl mq900:leading-[31px]">
-              Deals of The Day
-            </h1>
-          </div>
-          <div className="flex flex-row items-start justify-start pt-0 px-0 pb-[30.8px] box-border max-w-full text-lg text-gray-100">
-            <div className="relative leading-[22px]">
-              Plan your next trip with these unmissable CuddlyNest deals
-            </div>
-          </div>
+
+        {/* Recent Searches end */}
+
+        {/* Deals Part Start  */}
+
+        {/* <div className="self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-[19.9px] box-border gap-[1px] max-w-full shrink-0 text-base">
           <div className="self-stretch h-14 overflow-hidden shrink-0 flex flex-row items-start justify-between pt-0 px-0 pb-7 box-border relative max-w-full gap-[20px] mq900:h-auto">
             <div className="h-0 w-px absolute !m-[0] top-[0px] left-[0px] inline-block">{` `}</div>
             <div className="mt-[-1.7px] w-[667.4px] flex flex-col items-start justify-start gap-[35.7px] shrink-0 max-w-[calc(100%_-_86px)] text-lg mq900:gap-[18px]">
@@ -164,25 +168,14 @@ const FrameComponent3: FunctionComponent<FrameComponent3Type> = ({
               </div>
               <div className="w-px relative text-base inline-block">{` `}</div>
             </div>
-            <div className="h-[18px] w-[1476.1px] relative bg-white overflow-hidden shrink-0 hidden max-w-full z-[2]" />
-            <div className="flex flex-row items-start justify-start gap-[10px] shrink-0">
-              <img
-                className="h-7 w-7 relative rounded-sm min-h-[28px] z-[2]"
-                alt=""
-                src="/divcn--slider--arrows--arrowcn--slider--arrows--disabledcn--slider--arrows--prevarrow.svg"
-              />
-              <img
-                className="h-7 w-7 relative rounded-sm min-h-[28px] z-[2]"
-                alt=""
-                src="/divcn--slider--arrows--arrowcn--slider--arrows--nextarrow.svg"
-              />
-            </div>
           </div>
-          <div className="self-stretch h-[603px] overflow-hidden shrink-0 flex flex-row items-start justify-start pt-0 px-0 pb-[30px] box-border gap-[299px] max-w-full mq450:gap-[37px] mq900:gap-[75px] mq1275:gap-[149px] mq1600:h-auto">
-            <div className="w-[1576px] flex flex-col items-start justify-start gap-[5px] shrink-0 max-w-[107%]">
+
+
+          <div className="self-stretch h-[603px] overflow-hidden shrink-0 flex flex-row items-start justify-start pt-0 px-0 pb-[30px] box-border gap-[299px] max-w-full mq450:gap-[37px] mq900:gap-[75px] mq1275:gap-[149px] mq1600:h-auto"> */}
+            {/* <div className=" flex flex-col items-start justify-start  shrink-0 ">
               <div className="w-px h-0 relative inline-block">{` `}</div>
-              <div className="w-[1855px] flex flex-row items-start justify-start gap-[20px] max-w-[118%] shrink-0 text-4xl text-black mq1600:flex-wrap">
-                <div className="flex-1 flex flex-col items-start justify-start gap-[16.8px] min-w-[348px] max-w-full mq450:min-w-full">
+              <div className="max-w-full flex     text-4xl text-black "> */}
+                {/* <div className="flex-1 flex flex-col items-start justify-start gap-[16.8px] min-w-[348px] max-w-full mq450:min-w-full">
                   <img
                     className="self-stretch h-[492.7px] relative rounded-2xl max-w-full overflow-hidden shrink-0 object-cover"
                     loading="lazy"
@@ -203,10 +196,10 @@ const FrameComponent3: FunctionComponent<FrameComponent3Type> = ({
                       <div className="w-px flex flex-col items-start justify-start pt-[54.3px] px-0 pb-0 box-border ml-[-245.5px] text-gray-300">
                         <div className="self-stretch relative">{` `}</div>
                       </div>
-                    </div>
-                  </div>
-                </div>
-                <FrameComponent4
+                    </div> */}
+                  {/* </div>
+                </div> */}
+                {/* <FrameComponent4
                   divcnCardcnCard7="/divcn--cardcn--card7-1@2x.png"
                   tokyo="Tokyo"
                   perNight="€48 per night"
@@ -236,11 +229,21 @@ const FrameComponent3: FunctionComponent<FrameComponent3Type> = ({
                   propFlex="1"
                   propMinWidth="348px"
                   propAlignSelf="unset"
-                  propWidth="unset"
-                />
-              </div>
-            </div>
-            <div className="h-[573px] w-[1480px] flex flex-col items-start justify-start pt-[5px] px-0 pb-0 box-border max-w-full shrink-0 text-4xl text-black">
+                  propWidth="unset" */}
+                {/* /> */}
+              {/* </div>
+            </div> */}
+
+
+
+
+
+
+
+
+
+            
+            {/* <div className="h-[573px] w-[1480px] flex flex-col items-start justify-start pt-[5px] px-0 pb-0 box-border max-w-full shrink-0 text-4xl text-black">
               <div className="w-[-299px] flex-1 overflow-hidden flex flex-row items-start justify-start gap-[20px] shrink-0">
                 <FrameComponent4
                   divcnCardcnCard7="/divcn--cardcn--card7-5@2x.png"
@@ -284,9 +287,19 @@ const FrameComponent3: FunctionComponent<FrameComponent3Type> = ({
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
+            </div> */}
+
+
+
+          {/* </div>
+        </div> */}
+
+        <ScrollableImages/>
+
+        {/* Deals Part end */}
+
+        {/* Property Page start */}
+
         <div className="self-stretch h-[817.2px] flex flex-col items-start justify-start pt-0 px-0 pb-[717.3px] box-border gap-[31.8px] max-w-full shrink-0 text-13xl font-inter mq900:gap-[16px] mq900:pb-[303px] mq900:box-border mq1275:pb-[466px] mq1275:box-border">
           <div className="w-[1466px] flex flex-row items-start justify-center py-0 px-5 box-border max-w-full shrink-0">
             <div className="w-[390px] flex flex-col items-start justify-start gap-[15.6px] shrink-0 max-w-full">
@@ -300,7 +313,7 @@ const FrameComponent3: FunctionComponent<FrameComponent3Type> = ({
               </div>
             </div>
           </div>
-          <div className="self-stretch flex flex-row flex-wrap items-start justify-start gap-[29.9px_16.7px] min-h-[686px] shrink-0 max-w-full text-4xl text-black font-poppins">
+          <div className="self-stretch flex flex-wrap items-start justify-start gap-5 min-h-[686px] shrink-0  text-4xl text-black font-poppins">
             <DivcnHpNexttripSlider
               imgcnImageDefault="/imgcn--imagedefault@2x.png"
               hotels="Hotels"
@@ -350,26 +363,31 @@ const FrameComponent3: FunctionComponent<FrameComponent3Type> = ({
             />
           </div>
         </div>
-        <div className="self-stretch rounded-xl bg-mediumturquoise flex flex-row items-start justify-between py-[30px] pr-[135px] pl-28 box-border max-w-full shrink-0 gap-[20px] text-23xl text-white mq450:pt-5 mq450:pb-5 mq450:box-border mq900:pl-7 mq900:pr-[33px] mq900:box-border mq1275:pl-14 mq1275:pr-[67px] mq1275:box-border mq1600:flex-wrap">
+        {/* Property Page end */}
+
+        {/* Banner start */}
+
+        <div className="mt-[400px] self-stretch rounded-xl bg-mediumturquoise flex flex-row items-start justify-between py-[30px] pr-[135px] pl-28 box-border max-w-full  gap-[20px] text-23xl text-white ">
           <img
-            className="w-[572.2px] relative max-h-full overflow-hidden shrink-0 object-contain max-w-full mq1600:flex-1"
+            className="w-[572.2px] max-h-full overflow-hidden shrink-0 object-contain max-w-full mq1600:flex-1"
             loading="lazy"
             alt=""
             src="/frame-9@2x.png"
           />
+
           <div className="w-[529px] flex flex-col items-start justify-start pt-[92.1px] px-0 pb-0 box-border min-w-[529px] max-w-full mq900:min-w-full mq1600:flex-1">
             <div className="self-stretch flex flex-col items-start justify-start gap-[31.8px] mq900:gap-[16px]">
               <div className="self-stretch flex flex-col items-start justify-start gap-[9.6px]">
-                <h1 className="m-0 relative text-inherit leading-[51px] font-bold font-inherit mq450:text-6xl mq450:leading-[30px] mq900:text-15xl mq900:leading-[40px]">
+                <h1 className="m-0 text-inherit leading-[51px] font-bold font-inherit mq450:text-6xl mq450:leading-[30px] mq900:text-15xl mq900:leading-[40px]">
                   The CuddlyNest Promise
                 </h1>
                 <div className="self-stretch flex flex-row items-start justify-center py-0 px-5 text-lg">
-                  <div className="relative leading-[22px] font-medium">{`Free cancellation & waived service fees`}</div>
+                  <div className="leading-[22px] font-medium">{`Free cancellation & waived service fees`}</div>
                 </div>
               </div>
               <div className="self-stretch flex flex-row items-start justify-center py-0 pr-[21px] pl-5">
                 <button className="cursor-pointer [border:none] pt-[7.8px] px-[65px] pb-[8.2px] bg-[transparent] w-[200px] rounded-3xs [background:linear-gradient(92deg,_#f35597,_#7868c7_99.81%)] flex flex-row items-start justify-start box-border whitespace-nowrap">
-                  <div className="relative text-sm tracking-[0.14px] leading-[21px] font-semibold font-inter text-white text-left inline-block min-w-[65px]">
+                  <div className="text-sm tracking-[0.14px] leading-[21px] font-semibold font-inter text-white text-left inline-block min-w-[65px]">
                     See more
                   </div>
                 </button>

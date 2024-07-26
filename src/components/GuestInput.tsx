@@ -8,7 +8,7 @@ export type GuestInputType = {
 const GuestInput: FunctionComponent<GuestInputType> = ({ className = "" }) => {
   return (
     <section
-      className={`self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-[686.2px] box-border max-w-full shrink-0 text-left text-13xl text-white font-poppins mq900:pb-[188px] mq900:box-border mq1275:pb-[290px] mq1275:box-border ${className}`}
+      className={`self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-[686.2px] box-border  shrink-0 text-left text-13xl text-white font-poppins mq900:pb-[188px] mq900:box-border mq1275:pb-[290px] mq1275:box-border mt-[400px] overflow-x-hidden${className}`}
     >
       <div className="w-[1476.1px] flex flex-col items-end justify-start gap-[149.8px] max-w-full shrink-0 mq450:gap-[19px] mq900:gap-[37px] mq1275:gap-[75px]">
         <div className="self-stretch rounded-2xl overflow-hidden flex flex-col items-start justify-start pt-[105.2px] px-[50px] pb-[108.6px] box-border gap-[31.7px] max-w-full mq450:pt-[68px] mq450:pb-[71px] mq450:box-border mq900:gap-[16px] mq900:pl-[25px] mq900:pr-[25px] mq900:box-border">

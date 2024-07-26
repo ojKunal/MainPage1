@@ -34,11 +34,11 @@ const FrameComponent4: FunctionComponent<FrameComponent4Type> = ({
 
   return (
     <div
-      className={`flex-1 flex flex-col items-start justify-start gap-[16.8px] min-w-[348px] max-w-full text-left text-4xl text-black font-poppins mq450:min-w-full ${className}`}
+      className={`flex-1 flex flex-col items-start justify-start gap-[10.8px] min-w-[348px]  text-left text-4xl text-black font-poppins mq450:min-w-full overflow-x-hidden${className}`}
       style={frameDivStyle}
     >
       <img
-        className="self-stretch h-[492.7px] relative rounded-2xl max-w-full overflow-hidden shrink-0 object-cover"
+        className="self-stretch h-[292.7px] relative rounded-2xl max-w-[292px] overflow-hidden shrink-0 object-cover"
         loading="lazy"
         alt=""
         src={divcnCardcnCard7}

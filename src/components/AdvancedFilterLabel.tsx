@@ -23,44 +23,7 @@ const AdvancedFilterLabel: FunctionComponent<AdvancedFilterLabelType> = ({
             propGap="3.3px"
           />
           <div className="w-[1476.1px] h-[400px] overflow-x-auto shrink-0 flex flex-row items-end justify-start pt-0 px-0 pb-5 box-border gap-[20px] max-w-full">
-            <div className="mb-[-44px] h-[424px] w-[1780px] shrink-0 flex flex-col items-start justify-start gap-[20px] max-w-[121%] text-base text-gray-300">
-              <div className="self-stretch flex-1 flex flex-col items-start justify-start gap-[5px] max-w-full">
-                <div className="w-px h-0 relative inline-block">{` `}</div>
-                <div className="w-[1576px] flex-1 overflow-x-auto flex flex-row items-start justify-start gap-[20px] max-w-full text-4xl text-white">
-                  <DivcnCardcnCard
-                    imgcnImageDefault="/imgcn--imagedefault-15@2x.png"
-                    newDelhi="New Delhi"
-                    properties="2,090 properties"
-                  />
-                  <DivcnCardcnCard
-                    imgcnImageDefault="/imgcn--imagedefault-16@2x.png"
-                    newDelhi="Mapusa"
-                    properties="1,614 properties"
-                  />
-                  <DivcnCardcnCard
-                    imgcnImageDefault="/imgcn--imagedefault-17@2x.png"
-                    newDelhi="Jaipur"
-                    properties="1,066 properties"
-                  />
-                  <DivcnCardcnCard
-                    imgcnImageDefault="/imgcn--imagedefault-18@2x.png"
-                    newDelhi="Mumbai"
-                    properties="1,053 properties"
-                  />
-                  <DivcnCardcnCard
-                    imgcnImageDefault="/imgcn--imagedefault-19@2x.png"
-                    newDelhi="Gurgaon"
-                    properties="880 properties"
-                  />
-                  <DivcnCardcnCard
-                    imgcnImageDefault="/imgcn--imagedefault-20@2x.png"
-                    newDelhi="Chennai"
-                    properties="799 properties"
-                  />
-                </div>
-              </div>
-              <div className="w-px h-6 relative inline-block">{` `}</div>
-            </div>
+           
             <DivcnCardcnCard
               imgcnImageDefault="/imgcn--imagedefault-21@2x.png"
               newDelhi="Hyderabad"
@@ -71,36 +34,46 @@ const AdvancedFilterLabel: FunctionComponent<AdvancedFilterLabelType> = ({
               newDelhi="Udaipur"
               properties="594 properties"
             />
-            <div className="self-stretch w-[280px] shadow-[0px_2px_2px_rgba(87,_75,_144,_0.15)] rounded-2xl bg-darkgray-200 overflow-hidden shrink-0 flex flex-col items-start justify-end pt-[18px] px-[18px] pb-[18.5px] box-border gap-[1.8px]">
-              <h3 className="m-0 w-[91px] h-7 relative text-inherit leading-[27.6px] uppercase font-bold font-inherit inline-block mq450:text-lg mq450:leading-[22px]">
-                Manali
-              </h3>
-              <div className="self-stretch h-[19px] overflow-hidden shrink-0 flex flex-row items-start justify-start pt-0 px-0 pb-[1.7px] box-border text-base">
-                <div className="mt-[-1.7px] w-[119px] relative tracking-[0.16px] leading-[19px] font-medium inline-block shrink-0">
-                  592 properties
-                </div>
-              </div>
-            </div>
-            <div className="self-stretch w-[280px] shadow-[0px_2px_2px_rgba(87,_75,_144,_0.15)] rounded-2xl bg-darkgray-200 overflow-hidden shrink-0 flex flex-col items-start justify-end pt-[18px] px-[18px] pb-[18.5px] box-border gap-[1.8px]">
-              <h3 className="m-0 w-[61px] h-7 relative text-inherit leading-[27.6px] uppercase font-bold font-inherit inline-block mq450:text-lg mq450:leading-[22px]">
-                Pune
-              </h3>
-              <div className="self-stretch h-[19px] overflow-hidden shrink-0 flex flex-row items-start justify-start pt-0 px-0 pb-[1.7px] box-border text-base">
-                <div className="mt-[-1.7px] w-[120px] relative tracking-[0.16px] leading-[19px] font-medium inline-block shrink-0">
-                  499 properties
-                </div>
-              </div>
-            </div>
-            <div className="self-stretch w-[280px] shadow-[0px_2px_2px_rgba(87,_75,_144,_0.15)] rounded-2xl bg-darkgray-200 overflow-hidden shrink-0 flex flex-col items-start justify-end pt-[18px] px-[18px] pb-[18.5px] box-border gap-[1.8px]">
-              <h3 className="m-0 w-[150px] h-7 relative text-inherit leading-[27.6px] uppercase font-bold font-inherit inline-block mq450:text-lg mq450:leading-[22px]">
-                Ahmedabad
-              </h3>
-              <div className="self-stretch h-[19px] overflow-hidden shrink-0 flex flex-row items-start justify-start pt-0 px-0 pb-[1.7px] box-border text-base">
-                <div className="mt-[-1.7px] w-[120px] relative tracking-[0.16px] leading-[19px] font-medium inline-block shrink-0">
-                  463 properties
-                </div>
-              </div>
-            </div>
+            <DivcnCardcnCard
+              imgcnImageDefault="/imgcn--imagedefault-21@2x.png"
+              newDelhi="Hyderabad"
+              properties="730 properties"
+            />
+            <DivcnCardcnCard
+              imgcnImageDefault="/imgcn--imagedefault-22@2x.png"
+              newDelhi="Udaipur"
+              properties="594 properties"
+            />
+            <DivcnCardcnCard
+              imgcnImageDefault="/imgcn--imagedefault-21@2x.png"
+              newDelhi="Hyderabad"
+              properties="730 properties"
+            />
+            <DivcnCardcnCard
+              imgcnImageDefault="/imgcn--imagedefault-22@2x.png"
+              newDelhi="Udaipur"
+              properties="594 properties"
+            />
+            <DivcnCardcnCard
+              imgcnImageDefault="/imgcn--imagedefault-21@2x.png"
+              newDelhi="Hyderabad"
+              properties="730 properties"
+            />
+            <DivcnCardcnCard
+              imgcnImageDefault="/imgcn--imagedefault-22@2x.png"
+              newDelhi="Udaipur"
+              properties="594 properties"
+            />
+            <DivcnCardcnCard
+              imgcnImageDefault="/imgcn--imagedefault-21@2x.png"
+              newDelhi="Hyderabad"
+              properties="730 properties"
+            />
+            <DivcnCardcnCard
+              imgcnImageDefault="/imgcn--imagedefault-22@2x.png"
+              newDelhi="Udaipur"
+              properties="594 properties"
+            />
           </div>
         </div>
         <div className="self-stretch rounded-xl [background:linear-gradient(95.99deg,_#e8eded,_#f4f4f4)] overflow-hidden flex flex-row items-start justify-start py-0 px-[60px] box-border gap-[159.4px] max-w-full text-25xl text-slategray-100 mq450:gap-[20px] mq900:gap-[40px] mq1275:gap-[80px] mq1275:pl-[30px] mq1275:pr-[30px] mq1275:box-border mq1600:flex-wrap">
